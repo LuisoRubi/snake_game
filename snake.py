@@ -15,7 +15,7 @@ def game_loop():
     while running:
         screen.fill((50, 153, 213))
     
-        for event in pygame.get():
+        for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
     
