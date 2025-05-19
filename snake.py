@@ -14,6 +14,10 @@ blue = (50, 153, 213)
 width, height = 600, 400
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Snake Game")
+
+
+
+
 clock = pygame.time.Clock()
 snake_speed = 6
 
